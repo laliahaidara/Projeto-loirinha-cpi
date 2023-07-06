@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
 *{margin: 0; padding: 0;}
 
 body{
@@ -15,11 +17,41 @@ nav{
 #logo-nav{
 	margin-left: 20px;
 	margin-top: 20px;
-	align-content: center;
 }
 .a-menu{
 	font-size: 35px;
 	display: flex;
 	justify-content: flex-end;
 	padding: 50px;
+}
+
+
+aside{
+	display: grid;
+
+}
+.not{
+    width: 30%;
+    height: 1000px;
+    background-color: #2B324E;
+    float: left;
+    border-radius: 5px;
+
+}
+#not-titulo{
+	font-size: 2em;
+	text-align: center;
+	color: #FFF;
+	font-family: 'Gideon Roman', cursive;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#not-img{
+	align-items: center;
+	margin-left: 20px;
+}
+
+#not-text{
+	color: #FFF;
+	
 }
