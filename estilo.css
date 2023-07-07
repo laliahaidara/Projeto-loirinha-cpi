@@ -41,7 +41,8 @@ aside{
 .not{
     background-color: #2B324E;
     float: left;
-    border-radius: 5px;
+    border-radius: 0px;
+    flex-wrap: wrap;
 }
 #not-titulo{
 	font-size: 2em;
@@ -59,27 +60,55 @@ aside{
 #not-img{
 	align-items: center;
 	margin-left: 15px;
-	width: 150%;
+	width: 220%;
 	justify-items: right;
 }
 #not-text{
 	color: #FFF;
 	width: 35%;
 	align-items: right;
-	margin-left: 100px;
+	margin-left: 160px;
+	text-align: center;
 	
 }
 main{
 	background-color: #FFF;
-	width: 40%;
+	width: 35%;
 	height: 1000px;
 	float: left;
 }
+main h1{
+	margin-top: 80px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+main h2{
+	margin-left: 50px;
+	margin-bottom: 30px;
+}
+main p{
+	margin-left: 50px;
+	font-size: 20px;
+}
+iframe{
+	width: 85%;
+	margin-top: 25px;
+	padding: 15px;
+}
+#card-musicas-main{
+	text-align: center;
+}
+
 #nav-banner{
-	width: 30%;
+	width: 35%;
 	height: 1000px;
 	float: left;
 	background-color: #FFF;
+}
+#texto-TheEras{
+	font-size: 40px;
+	text-align: center;
+	color: #2B324E;
 }
 #img-banner{
 	mix-blend-mode:multiply;
@@ -101,7 +130,7 @@ main{
 
 
 footer{
-	background-color: #272122;
+	background-color: #000;
 	padding: 20px;
 	clear: both;
 }
@@ -116,3 +145,7 @@ footer a{
 footer a:hover{
 	color: #3F51B5;
 }
+
+
+
+/*pagina eras*/
