@@ -47,7 +47,7 @@ h1, p{
 .card{
 	background-color: #e4dedd;
 	width: 30%;
-	border-radius: 0px;
+	border-radius: 5px;
 	box-shadow: 10px 10px 10px #000;
 	margin: 40px
 }
