@@ -6,7 +6,12 @@ body{
 	background-color: #F2F1F1;
 }
 
-nav{
+#nav-topo{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 50px;
 	background-color: #D3D3D3;
 	justify-content: space-between;
 	display: flex;
@@ -19,24 +24,24 @@ nav{
 	margin-top: 20px;
 }
 .a-menu{
-	font-size: 35px;
-	display: flex;
+	font-size: 30px;
 	justify-content: flex-end;
 	padding: 50px;
+	color: black;
 }
-
-
 aside{
 	display: grid;
+	background-color: yellow;
+	width: 30%;
+    height: 1000px;
+    float: left;
 
 }
+
 .not{
-    width: 30%;
-    height: 1000px;
     background-color: #2B324E;
     float: left;
     border-radius: 5px;
-
 }
 #not-titulo{
 	font-size: 2em;
@@ -46,12 +51,68 @@ aside{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-#not-img{
-	align-items: center;
-	margin-left: 20px;
+.card-not{
+	width: 100%;
+	display: flex;
 }
 
+#not-img{
+	align-items: center;
+	margin-left: 15px;
+	width: 150%;
+	justify-items: right;
+}
 #not-text{
 	color: #FFF;
+	width: 35%;
+	align-items: right;
+	margin-left: 100px;
 	
+}
+main{
+	background-color: #FFF;
+	width: 40%;
+	height: 1000px;
+	float: left;
+}
+#nav-banner{
+	width: 30%;
+	height: 1000px;
+	float: left;
+	background-color: #FFF;
+}
+#img-banner{
+	mix-blend-mode:multiply;
+	height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color: #272122;
+	padding: 20px;
+	clear: both;
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+	font-size: 1,5em;
+}
+footer a{
+	color: #FFF;
+}
+footer a:hover{
+	color: #3F51B5;
 }
