@@ -127,8 +127,11 @@ iframe{
 	border-radius: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
+
 }
 
+#botao-banner:hover{color: #212121 ;}
+#botao-banner:link,#botao-banner:visited{color: #FFF;}
 
 
 
