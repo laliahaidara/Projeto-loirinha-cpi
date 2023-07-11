@@ -94,6 +94,24 @@ input[type="reset"]{
 	background-color: #F47E7E;
 }
 
+
+footer{
+	background-color: #000;
+	padding: 20px;
+	clear: both;
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+	font-size: 1,5em;
+}
+footer a{
+	color: #FFF;
+}
+footer a:hover{
+	color: #3F51B5;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 390px) {
@@ -133,25 +151,6 @@ input[type="reset"]{
 		
 	}
 
-
-
-
-footer{
-	background-color: #000;
-	padding: 20px;
-	clear: both;
-}
-footer p{
-	text-align: center;
-	color: #FFF;
-	font-size: 1,5em;
-}
-footer a{
-	color: #FFF;
-}
-footer a:hover{
-	color: #3F51B5;
-}
 
 
 
