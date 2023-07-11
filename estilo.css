@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Satisfy&family=Ysabeau+Infant:wght@300&display=swap');
 *{margin: 0; padding: 0;}
 
 body{
@@ -151,6 +151,7 @@ iframe{
 }
 #botao-banner:hover{color: #212121 ;}
 #botao-banner:link,#botao-banner:visited{color: #FFF;}
+
 
 
 
