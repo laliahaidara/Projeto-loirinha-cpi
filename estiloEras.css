@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Satisfy&family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Josefin+Sans:wght@200&display=swap');
 *{margin: 0; padding: 0;}
 
 body{
@@ -31,6 +32,9 @@ body{
 h1, p{
 	text-align: center;
 	padding: 30px;
+}
+#apre{
+	font-family: 'Josefin Sans',cursive;
 }
 h1{
 	font-size: 50px;
