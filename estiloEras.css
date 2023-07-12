@@ -269,8 +269,6 @@ iframe{
   content: 'topo';
 }
 
-
-
 .fab button.main:active,
 .fab button.main:focus{
   outline: none;
@@ -310,6 +308,7 @@ footer p{
 }
 footer a{
 	color: #FFF;
+	text-decoration: none;
 }
 footer a:hover{
 	color: #3F51B5;
@@ -633,6 +632,7 @@ footer p{
 }
 footer a{
 	color: #FFF;
+	text-decoration: none;
 }
 footer a:hover{
 	color: #3F51B5;
