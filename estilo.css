@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&family=Satisfy&family=Ysabeau+Infant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Josefin+Sans:wght@200&family=Montserrat:wght@200&display=swap');
 *{margin: 0; padding: 0;}
 
 body{
@@ -31,7 +32,7 @@ body{
 }
 aside{
 	display: grid;
-	background-color: yellow;
+	background-color: hotpink;
 	width: 30%;
     height: 1000px;
     float: left;
@@ -48,8 +49,8 @@ aside{
 	font-size: 2em;
 	text-align: center;
 	color: #FFF;
-	font-family: 'Gideon Roman', cursive;
-	margin-top: 10px;
+	font-family: 'Gideon Roman', cursive sans-serif;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 .card-not{
@@ -60,7 +61,7 @@ aside{
 
 #not-img{
 	align-items: center;
-	margin-left: 15px;
+	margin-left: 60px;
 	justify-items:right;
 }
 #not-text{
@@ -68,21 +69,31 @@ aside{
 	color: #FFF;
 	width: 35%;
 	align-items: right;
-	margin-left: 25%;
+	margin-left: 40px;
 	text-align: center;
-	
+	font-family: Montserrat, sans-serif;
+}
+
+#not-text2{
+	margin-top: 1%;
+	color: #FFF;
+	width: 35%;
+	align-items: center;
+	margin-left: 40px;
+	text-align: justify;
+	font-family: Montserrat, sans-serif;
 }
 #botao-noticia{
 	font-size: 1.5em;
-	margin: 5px;
-	padding: 5px;
+	margin: 2px;
+	padding: 2px;
 	text-align: center;
 	background-color:#2B324E;
 	color: #FFF;
 	border: none;
 	border-radius: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 #botao-noticia a{
 	color: #FFF;
@@ -107,10 +118,11 @@ main h2{
 main p{
 	margin-left: 50px;
 	font-size: 20px;
+	font-family: Poppings, sans-serif;
 }
 iframe{
 	width: 85%;
-	margin-top: 25px;
+	margin: 25px;
 	padding: 15px;
 }
 #card-musicas-main{
