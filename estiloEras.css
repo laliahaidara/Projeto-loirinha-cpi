@@ -18,6 +18,7 @@ body{
 	display: flex;
 	height: 100%;
 }
+
 #logo-nav{
 	margin-left: 20px;
 	margin-top: 20px;
@@ -27,6 +28,7 @@ body{
 	justify-content: flex-end;
 	padding: 50px;
 	color: black;
+	text-decoration: none;
 }
 
 h1, p{
