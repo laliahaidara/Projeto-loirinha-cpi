@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Josefin+Sans:wght@200&family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Josefin+Sans:wght@200&family=Montserrat:wght@200;300&family=Raleway:wght@200&display=swap');
 *{margin: 0; padding: 0;}
 
 body{
@@ -46,12 +46,14 @@ main h2{
 	margin-top: 20px;
 	color: #da8e01;
 	font-family: Raleway, sans-serif;
+	font-weight: 400;
 }
 main p{
 	font-size: 1.3em;
 	margin: 10px;
-	font-family: 'Gideon Roman',sans-serif;
+	font-family: 'Montserrat',sans-serif;
 	margin-left: 19px;
+	color: black;
 
 }
 nav{
